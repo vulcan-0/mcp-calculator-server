@@ -15,8 +15,13 @@
     <groupId>com.example</groupId>
     <artifactId>calculator-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>Calculator Server</name>
     <description>Basic calculator MCP service for beginners</description>
+    <modules>
+        <module>mcp-calculator-server</module>
+        <module>mcp-streaming-client</module>
+    </modules>
 
     <!-- Properties -->
     <properties>
